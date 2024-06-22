@@ -1,0 +1,56 @@
+.Create{
+    height: 100%;
+    background: rgba(26, 127, 244, 0.614);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Add{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 8px;
+    z-index: 999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+.Add input{
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.BAdd{
+    text-align: center;
+    display: inline-block;
+  width: 50px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Addsubmit{
+    display: inline-block;
+  width: 400px;
+  background-color: #00a59d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Addsubmit:hover{
+    background-color: #025551;
+}
